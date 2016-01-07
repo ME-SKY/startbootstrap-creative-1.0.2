@@ -450,6 +450,11 @@ fieldset[disabled] .btn-primary.active {
     padding: 15px 30px;
 }
 
+.brand-img {
+    padding: 0;
+    border: none;
+    margin: -15px 0px 0px 0px;
+
 ::-moz-selection {
     text-shadow: none;
     color: #fff;
@@ -474,4 +479,60 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+div.service-box>i.creative {
+	margin-bottom: 4px;
+/* 	bottom: -0.1em; */
+}
+
+.creative-key {
+	margin-bottom: 14px;
+}
+
+.creative-key:before {
+	content: url(../fonts/key.png);
+}
+
+.creative-corporate-copywriting:before {
+	content: url(../fonts/corporate-copywriting.png);
+}
+
+.creative-edit:before {
+	content: url(../fonts/edit.png);
+}
+
+.creative-graph {
+	margin-bottom: 14px;
+}
+
+.creative-graph:before {
+	content: url(../fonts/creative-graph.png);
+	bottom: -0.1em;
+	position: relative;
+}
+
+.creative-translate:before {
+	content: url(../fonts/creative-translate.png);
+}
+
+.creative-target:before {
+	content: url(../fonts/creative-target.png);
+}
+
+.creative-catalog:before {
+	content: url(../fonts/creative-catalog.png);
+}
+
+.creative-presentation:before {
+	content: url(../fonts/creative-presentation.png);
+	bottom: -0.1em;
+	position: relative;
+
+}
+
+.creative-vk:before {
+	content: url(../fonts/creative-vk.png);
+	bottom: -0.1em;
+	position: relative;
+	
 }
