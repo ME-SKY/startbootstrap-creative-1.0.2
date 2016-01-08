@@ -90,7 +90,7 @@ aside {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: #f05f40;
+    /* color: #f05f40; */
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -128,9 +128,9 @@ aside {
         background-color: transparent;
     }
 
-    .navbar-default .navbar-header .navbar-brand {
+   /*  .navbar-default .navbar-header .navbar-brand {
         color: rgba(255,255,255,.7);
-    }
+    } */
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
@@ -154,7 +154,7 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: #f05f40;
+        color: #3F2765;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -357,6 +357,10 @@ header .header-content .header-content-inner p {
 .open > .dropdown-toggle.btn-default {
     background-image: none;
 }
+.gold {
+    text-shadow: 0px 0px 0px black;
+    color: #ffd900;
+}
 
 .btn-default.disabled,
 .btn-default[disabled],
@@ -535,4 +539,8 @@ div.service-box>i.creative {
 	bottom: -0.1em;
 	position: relative;
 	
+}
+.gold {
+    text-shadow: 0px 0px 0px black;
+    color: #ffd900;
 }
